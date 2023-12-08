@@ -10,7 +10,7 @@ public class CalculatorInterest {
         System.out.println("enter the month");
         int month = scanner.nextInt();
 
-        double interest = money * (interestRate / 100) * month;
+        double interest = money * (interestRate / 100 / 12) * month;
         System.out.println("the interest in " + month + " month is:\n" + interest + " vnd");
     }
 }
